@@ -120,6 +120,7 @@ setup(
             'conclude = jacquard.experiments.commands:Conclude',
             'load-experiment = jacquard.experiments.commands:Load',
             'list = jacquard.experiments.commands:ListExperiments',
+            'show-experiment = jacquard.experiments.commands:Show',
             'list-users = jacquard.directory.commands:ListUsers',
             'rollout = jacquard.buckets.commands:Rollout',
         ),
