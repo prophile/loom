@@ -195,14 +195,13 @@ class ListExperiments(BaseCommand):
 
 
 class Show(BaseCommand):
-    """
-    Show a given experiment.
-    """
+    """Show a given experiment."""
 
     help = "show details about an experiment"
 
     @staticmethod
     def show_experiment(experiment, detailed=True):
+        """Print information about the given experiment."""
         if experiment.name == experiment.id:
             title = experiment.id
         else:
