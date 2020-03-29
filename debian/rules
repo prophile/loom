@@ -1,0 +1,10 @@
+#!/usr/bin/make -f
+
+export PYBUILD_NAME = jacquard
+export PYTHONDONTWRITEBYTECODE = 1
+
+# Testing is done separately via CI
+export PYBUILD_DISABLE = test
+
+%:
+	dh $@ --with python3 --buildsystem=pybuild

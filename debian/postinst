@@ -1,3 +1,7 @@
+#!/bin/sh
+
+set -e
+
 touch /var/jacquard/jacquard.db
 chown www-data:www-data /var/jacquard/jacquard.db
 chown www-data:www-data /var/jacquard
