@@ -37,9 +37,9 @@ workflows:
   build-and-test:
     jobs:
       - build-35
-      # - build-36
-      # - build-37
-      # - build-38
+      - build-36
+      - build-37
+      - build-38
       - lint
 
 jobs:
