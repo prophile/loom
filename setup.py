@@ -96,6 +96,7 @@ setup(
         'redis==2.10.6',
         'fakeredis==0.16.0',
         'hypothesis<4',
+        'networkx',
     ),
 
     entry_points={
