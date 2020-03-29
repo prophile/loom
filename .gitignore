@@ -1,3 +1,11 @@
+# Debian packaging files
+/debian/debhelper-build-stamp
+/debian/files
+/debian/jacquard.*.debhelper
+/debian/jacquard.substvars
+/debian/jacquard
+/.pybuild
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

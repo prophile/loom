@@ -1,0 +1,5 @@
+jacquard (0.7.0) unstable; urgency=low
+
+  * Initial Debian packaged version
+
+ -- Peter Law <PeterJCLaw@gmail.com>  Sat, 28 Mar 2020 23:45:00 +0000
