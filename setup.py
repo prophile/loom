@@ -81,7 +81,7 @@ setup(
 
     install_requires=(
         'redis',
-        'werkzeug',
+        'werkzeug<1',
         'python-dateutil',
         'pyyaml',
         'sqlalchemy',
