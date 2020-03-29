@@ -1,4 +1,9 @@
 #!/bin/sh
-set -e
+
 black --check jacquard
-exec flake8 jacquard
+result=$?
+
+flake8 jacquard
+result=$((result | $?))
+
+exit $result

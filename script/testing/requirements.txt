@@ -1,0 +1,5 @@
+pytest
+pytest-cov
+fakeredis==0.16.0
+hypothesis<4
+networkx
