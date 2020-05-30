@@ -42,6 +42,11 @@ setup(
     name='jacquard-split',
     version='0.7.0',
     url='https://github.com/prophile/jacquard',
+    project_urls={
+        'Code': 'https://github.com/prophile/jacquard',
+        'Documentation': 'https://jacquard-split.readthedocs.io/en/latest/',
+        'Issue tracker': 'https://github.com/prophile/jacquard/issues',
+    },
     description="Split testing server",
     long_description=long_description,
 
